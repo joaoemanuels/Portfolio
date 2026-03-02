@@ -6,6 +6,9 @@ import js from "@/assets/icons/js.svg";
 import react from "@/assets/icons/react.svg";
 import sass from "@/assets/icons/scss.svg";
 import figma from "@/assets/icons/figma.svg";
+import vite from "@/assets/icons/vite.svg";
+import tailwind from "@/assets/icons/tailwind.svg";
+import vercel from "@/assets/icons/vercel.svg";
 import SkillCard from "../../ui/SkillCard";
 
 import "./skill-section.styles.css";
@@ -13,7 +16,7 @@ import "./skill-section.styles.css";
 function SkillSection() {
   return (
     <section className="skill-section">
-      <HeadingSection>Teste</HeadingSection>
+      <HeadingSection>Tecnologias</HeadingSection>
       <div className="skill-section-container">
         <div className="skill-cards">
           <SkillCard icon={html} name="React" />
@@ -27,6 +30,12 @@ function SkillSection() {
           <SkillCard icon={sass} name="Figma" />
 
           <SkillCard icon={figma} name="Figma" />
+
+          <SkillCard icon={vite} name="vite" />
+
+          <SkillCard icon={tailwind} name="tailwind" />
+
+          <SkillCard icon={vercel} name="vercel" />
         </div>
       </div>
     </section>

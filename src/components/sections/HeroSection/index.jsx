@@ -19,7 +19,7 @@ function HeroSection() {
       </div>
       <div className="hero-section-right">
         <div className="hero-section-right__content">
-          <HeadingSection>Teste</HeadingSection>
+          <img src="" alt="" />
         </div>
       </div>
     </section>

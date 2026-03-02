@@ -8,13 +8,17 @@ function AboutSection() {
       <div className="about-section-container">
         <HeadingSection>Teste</HeadingSection>
         <p>
-          Desenvolvedor Front-end especializado em criar experiências digitais
-          rápidas, escaláveis e com foco em performance. Tenho sólida
-          experiência em grandes projetos, utilizando tecnologias modernas como
-          React.js, Next.js, TypeScript, Redux, Styled Components, Material UI e
-          Tailwind CSS. Sou apaixonado pelo desenvolvimento de componentes
-          reutilizáveis, Design Systems, animações fluidas e por evoluir
-          continuamente a performance e a acessibilidade das aplicações.
+          Desenvolvedor Front-End com foco na criação de interfaces modernas,
+          responsivas e orientadas à performance. Possuo experiência no
+          desenvolvimento de aplicações com React.js, JavaScript, HTML, CSS e
+          integração com APIs<br />
+          <br />
+          Tenho forte atenção à organização de código, componentização, boas
+          práticas de UX/UI e otimização para SEO. Gosto de transformar ideias
+          em produtos digitais funcionais, com estrutura escalável e foco na
+          experiência do usuário. Estou em constante evolução, buscando
+          aprimorar arquitetura, performance e qualidade técnica em cada projeto
+          desenvolvido.
         </p>
       </div>
     </section>

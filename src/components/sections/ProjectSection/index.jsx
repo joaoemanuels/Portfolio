@@ -19,7 +19,6 @@ function ProjectSection() {
   return (
     <section className="project-section">
       <div className="project-container">
-        <h2 className="project-title">Projetos</h2>
         <HeadingSection>Teste</HeadingSection>
 
         <div className="project-highlight">
