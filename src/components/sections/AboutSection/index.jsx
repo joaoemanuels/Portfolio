@@ -1,10 +1,12 @@
+import HeadingSection from "../../ui/HeadingSection";
+
 import "./about-section.styles.css";
 
 function AboutSection() {
   return (
     <section className="about-section">
       <div className="about-section-container">
-        <h2>teste</h2>
+        <HeadingSection>Teste</HeadingSection>
         <p>
           Desenvolvedor Front-end especializado em criar experiências digitais
           rápidas, escaláveis e com foco em performance. Tenho sólida

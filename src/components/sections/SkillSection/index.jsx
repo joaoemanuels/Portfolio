@@ -1,96 +1,32 @@
+import HeadingSection from "../../ui/HeadingSection";
+
+import html from "@/assets/icons/html5.svg";
+import css from "@/assets/icons/css3.svg";
+import js from "@/assets/icons/js.svg";
+import react from "@/assets/icons/react.svg";
+import sass from "@/assets/icons/scss.svg";
+import figma from "@/assets/icons/figma.svg";
+import SkillCard from "../../ui/SkillCard";
+
 import "./skill-section.styles.css";
 
 function SkillSection() {
   return (
     <section className="skill-section">
-      <h2>teste</h2>
+      <HeadingSection>Teste</HeadingSection>
       <div className="skill-section-container">
         <div className="skill-cards">
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
-          <div className="skill-card">
-            <span>teste</span>
-            <span>teste</span>
-            <img src="" alt="" />
-          </div>
+          <SkillCard icon={html} name="React" />
+
+          <SkillCard icon={css} name="Sass" />
+
+          <SkillCard icon={js} name="Figma" />
+
+          <SkillCard icon={react} name="Figma" />
+
+          <SkillCard icon={sass} name="Figma" />
+
+          <SkillCard icon={figma} name="Figma" />
         </div>
       </div>
     </section>

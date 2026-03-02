@@ -1,63 +1,60 @@
+import { useState } from "react";
+import { projects } from "@/data/projects";
+import HeadingSection from "../../ui/HeadingSection";
+import ProjectModal from "../../ui/ProjectModal";
+
 import "./project-section.styles.css";
 
 function ProjectSection() {
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  function handleOpen(project) {
+    setSelectedProject(project);
+  }
+
+  function handleClose() {
+    setSelectedProject(null);
+  }
+
   return (
     <section className="project-section">
       <div className="project-container">
         <h2 className="project-title">Projetos</h2>
+        <HeadingSection>Teste</HeadingSection>
 
         <div className="project-highlight">
           <h3 className="highlight-title">Destaques</h3>
 
           <div className="project-grid">
-            {/* Card 1 */}
-            <div className="project-card">
-              <div className="project-image">
-                <div className="project-overlay">
-                  <h4>Collage.fm</h4>
-                  <div className="tech-stack">
-                    <span>React</span>
-                    <span>TS</span>
-                    <span>Node</span>
-                    <span>Figma</span>
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="project-card-container"
+                onClick={() => handleOpen(project)}
+              >
+                <div className="project-card">
+                  <div className="project-overlay">
+                    <h4>{project.title}</h4>
+
+                    <div className="tech-stack">
+                      {project.techs.map((tech, index) => (
+                        <img key={index} src={tech} alt="" />
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="project-extra">
-                <span>13 de Março de 2025</span>
-                <button>Ver mais</button>
-              </div>
-            </div>
-
-            {/* Card 2 */}
-            <div className="project-card">
-              <div className="project-overlay">
-                <h4>The Movie Guide</h4>
-                <div className="tech-stack">
-                  <span>React</span>
-                  <span>TS</span>
-                  <span>Node</span>
-                  <span>Figma</span>
+                <div className="project-footer">
+                  <p>{project.date}</p>
+                  <button type="button">Detalhes</button>
                 </div>
               </div>
-            </div>
-
-            {/* Card 3 */}
-            <div className="project-card">
-              <div className="project-overlay">
-                <h4>Daily Weather</h4>
-                <div className="tech-stack">
-                  <span>HTML</span>
-                  <span>Sass</span>
-                  <span>JS</span>
-                  <span>API</span>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>
+
+      <ProjectModal project={selectedProject} onClose={handleClose} />
     </section>
   );
 }
