@@ -1,5 +1,4 @@
 import Button from "../../ui/Button";
-import HeadingSection from "../../ui/HeadingSection";
 
 import "./hero-section.styles.css";
 
@@ -14,12 +13,20 @@ function HeroSection() {
         <p>Desenvolvedor Front-End | React.js | Node.js</p>
         <div className="hero-section-btns">
           <Button>Download CV</Button>
-          <Button>Entrar em contato</Button>
+          <a
+            href="https://wa.me/5583993650322"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>Entrar em contato</Button>
+          </a>
         </div>
       </div>
       <div className="hero-section-right">
         <div className="hero-section-right__content">
-          <img src="" alt="" />
+          <div className="container-image">
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </section>

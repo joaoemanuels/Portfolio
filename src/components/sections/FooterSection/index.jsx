@@ -1,5 +1,10 @@
 import HeadingSection from "../../ui/HeadingSection";
 
+import email from "@/assets/icons/email.svg";
+import phone from "@/assets/icons/phone.svg";
+import linkedin from "@/assets/icons/linkedin.svg";
+import github from "@/assets/icons/github.svg";
+
 import "./footer-section.styles.css";
 
 function FooterSection() {
@@ -9,37 +14,45 @@ function FooterSection() {
         <HeadingSection>Teste</HeadingSection>
 
         <div className="footer-grid">
-          <div className="footer-item">
+          <a href="mailto:Jemanuel.pi@gmail.com" className="footer-item">
             <div className="footer-icon">
-              <img src="" alt="" />
+              <img src={email} alt="" />
             </div>
             <h3>E-mail</h3>
-            <p>ertjhertj@gmail.com</p>
-          </div>
+            <p>Jemanuel.pi@gmail.com</p>
+          </a>
 
-          <div className="footer-item">
+          <a
+            href="https://wa.me/5583993650322"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-item"
+          >
             <div className="footer-icon">
-              <img src="" alt="" />
+              <img src={phone} alt="" />
             </div>
-            <h3>Telefone</h3>
-            <p>(12) 91234-1234</p>
-          </div>
+            <h3>whatsapp</h3>
+            <p>(83) 99365-0322</p>
+          </a>
 
-          <div className="footer-item">
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-emanuel-b4573221b/"
+            className="footer-item"
+          >
             <div className="footer-icon">
-              <img src="" alt="" />
+              <img src={linkedin} alt="" />
             </div>
             <h3>Linkedin</h3>
-            <p>@gwwgeg</p>
-          </div>
+            <p>@joão-emanuel-b4573221b</p>
+          </a>
 
-          <div className="footer-item">
+          <a href="https://github.com/joaoemanuels" className="footer-item">
             <div className="footer-icon">
-              <img src="" alt="" />
+              <img src={github} alt="" />
             </div>
             <h3>Github</h3>
-            <p>@ewgwegtg</p>
-          </div>
+            <p>@joaoemanuels</p>
+          </a>
         </div>
       </div>
     </section>

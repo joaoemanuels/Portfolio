@@ -19,13 +19,12 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  transition: all 0.3s ease;
 }
 
 .footer-icon {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: #ff4b57;
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,11 +32,21 @@
   margin-bottom: 15px;
 }
 
+.footer-icon img {
+  background-color: #2b2e41;
+  padding: 15px;
+  border-radius: 20px;
+}
+
 .footer-item h3 {
-  font-size: 18px;
+  font-size: 1.6rem;
+  color: white;
 }
 
 .footer-item p {
   color: #aaa;
-  font-size: 15px;
+  font-size: 1rem;
+}
+.footer-item:hover {
+  scale: 1.2;
 }

@@ -5,6 +5,7 @@
   align-items: center;
   padding: 30px 0;
 }
+
 .skill-section-container {
   display: flex;
   justify-content: center;
@@ -16,4 +17,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
