@@ -1,21 +1,52 @@
-import { Link } from "react-router-dom";
-
+import { useState } from "react";
+import whatsapp from "@/assets/icons/whatsapp.svg";
 import "./header.styles.css";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <header className="header">
-      <Link to="/" className="btn-link">
-        <h1>teste</h1>
-      </Link>
-      <div className="header-actions">
-        <Link to="/" className="btn-link">
-          Entrar
-        </Link>
+      <a href="#hero" className="logo">
+        João.dev
+      </a>
 
-        <Link to="/" className="btn-primary">
-          Agendar
-        </Link>
+      <nav className={`nav ${menuOpen ? "active" : ""}`}>
+        <a href="#hero" onClick={() => setMenuOpen(false)}>
+          Início
+        </a>
+        <a href="#about" onClick={() => setMenuOpen(false)}>
+          Sobre
+        </a>
+        <a href="#skills" onClick={() => setMenuOpen(false)}>
+          Skills
+        </a>
+        <a href="#projects" onClick={() => setMenuOpen(false)}>
+          Projetos
+        </a>
+        <a href="#contact" onClick={() => setMenuOpen(false)}>
+          Contato
+        </a>
+      </nav>
+
+      <div className="header-right">
+        <a
+          href="https://wa.me/5583999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-btn"
+        >
+          <img src={whatsapp} alt="WhatsApp" />
+        </a>
+
+        <button
+          className={`menu-toggle ${menuOpen ? "active" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </header>
   );

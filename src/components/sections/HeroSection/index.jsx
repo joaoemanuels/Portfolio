@@ -4,7 +4,7 @@ import "./hero-section.styles.css";
 
 function HeroSection() {
   return (
-    <section className="hero-section">
+    <section id="hero" className="hero-section">
       <div className="hero-section-left">
         <h1>
           Olá, eu sou o <br />

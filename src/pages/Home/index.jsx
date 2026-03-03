@@ -9,7 +9,7 @@ import "../Home/home.styles.css";
 function Home() {
   return (
     <>
-      <HeroSection />
+      <HeroSection/>
       <AboutSection />
       <SkillSection />
       <ProjectSection />

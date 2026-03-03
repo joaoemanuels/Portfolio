@@ -15,7 +15,7 @@ import "./skill-section.styles.css";
 
 function SkillSection() {
   return (
-    <section className="skill-section">
+    <section id="skills" className="skill-section">
       <HeadingSection>Tecnologias</HeadingSection>
       <div className="skill-section-container">
         <div className="skill-cards">

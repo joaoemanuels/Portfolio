@@ -17,3 +17,32 @@
   color: #c5c5c5;
   text-align: center;
 }
+
+@media (min-width: 280px) and (max-width: 767px) {
+  .about-section-container{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .about-section-container p{
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+  }
+}
+
+/* Mobile grande */
+@media (min-width: 768px) {
+}
+
+/* Tablet */
+@media (min-width: 1024px) {
+}
+
+/* Laptop */
+@media (min-width: 1280px) {
+}
+
+/* Desktop */
+@media (min-width: 1536px) {
+}
+
+/* Desktop grande */

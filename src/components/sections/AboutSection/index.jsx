@@ -4,9 +4,9 @@ import "./about-section.styles.css";
 
 function AboutSection() {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
       <div className="about-section-container">
-        <HeadingSection>Teste</HeadingSection>
+        <HeadingSection>Sobre mim</HeadingSection>
         <p>
           Desenvolvedor Front-End com foco na criação de interfaces modernas,
           responsivas e orientadas à performance. Possuo experiência no

@@ -17,9 +17,9 @@ function ProjectSection() {
   }
 
   return (
-    <section className="project-section">
+    <section id="projects" className="project-section">
       <div className="project-container">
-        <HeadingSection>Teste</HeadingSection>
+        <HeadingSection>Projetos</HeadingSection>
 
         <div className="project-highlight">
           <h3 className="highlight-title">Destaques</h3>

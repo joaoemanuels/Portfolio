@@ -9,9 +9,9 @@ import "./footer-section.styles.css";
 
 function FooterSection() {
   return (
-    <section className="footer-section">
+    <section id="contact" className="footer-section">
       <div className="footer-section-container">
-        <HeadingSection>Teste</HeadingSection>
+        <HeadingSection>Contato</HeadingSection>
 
         <div className="footer-grid">
           <a href="mailto:Jemanuel.pi@gmail.com" className="footer-item">

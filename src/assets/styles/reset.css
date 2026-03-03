@@ -7,12 +7,11 @@
 }
 
 body {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   line-height: 1.5;
-  background-color: 161616;
+  background-color: #23253a;
   font-family: "Inter", "Arial", sans-serif;
   color: #111;
-  height: 2000px;
 }
 
 ul,

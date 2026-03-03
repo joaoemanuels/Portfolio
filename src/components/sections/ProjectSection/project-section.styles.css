@@ -1,7 +1,8 @@
 .project-section {
-  min-height: 100vh;
-  padding: 80px 0;
+  min-height: fit-content;
+  padding: 50px 0;
   color: white;
+  border: 1px solid red;
 }
 
 .project-container {
@@ -10,7 +11,7 @@
   margin: 0 auto;
 }
 
-.project-container h2{
+.project-container h2 {
   text-align: center;
 }
 
@@ -129,3 +130,29 @@
 .tech-stack img {
   width: 35px;
 }
+
+@media (min-width: 280px) and (max-width: 767px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+/* Mobile grande */
+@media (min-width: 768px) {
+}
+
+/* Tablet */
+@media (min-width: 1024px) {
+}
+
+/* Laptop */
+@media (min-width: 1280px) {
+}
+
+/* Desktop */
+@media (min-width: 1536px) {
+}
+
+/* Desktop grande */
