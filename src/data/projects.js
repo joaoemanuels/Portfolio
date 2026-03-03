@@ -2,6 +2,9 @@ import reactIcon from "@/assets/icons/react.svg";
 import sass from "@/assets/icons/scss.svg";
 import figma from "@/assets/icons/figma.svg";
 
+import projeto1 from "@/assets/images/projeto1.png";
+import projeto2 from "@/assets/images/projeto2.png";
+
 export const projects = [
   {
     id: 1,
@@ -25,18 +28,18 @@ export const projects = [
       - Autenticação segura
     `,
 
-    video: "https://www.youtube.com/embed/ALsHGAx28t8",
+    video: "https://www.youtube.com/embed/pVWxjhSx_IY",
 
-    images: ["/images/moneyflow-1.png", "/images/moneyflow-2.png"],
+    images: [projeto1],
 
     techs: [reactIcon, sass, figma],
 
-    liveUrl: "https://moneyflow.com",
-    githubUrl: "https://github.com/usuario/moneyflow",
+    liveUrl: "https://moneyflow.site",
+    githubUrl: "https://github.com/joaoemanuels/MoneyFlow",
   },
   {
     id: 2,
-    title: "MoneyFlow",
+    title: "AgendaPro",
     date: "02 de Fevereiro de 2026",
 
     shortDescription: "Sistema de controle financeiro moderno.",
@@ -56,9 +59,9 @@ export const projects = [
       - Autenticação segura
     `,
 
-    video: "https://www.youtube.com/embed/SEU_ID_AQUI?rel=0&modestbranding=1",
+    video: "https://youtu.be/pVWxjhSx_IY",
 
-    images: ["/images/moneyflow-1.png", "/images/moneyflow-2.png"],
+    images: [projeto2],
 
     techs: [reactIcon, sass, figma],
 
@@ -87,9 +90,9 @@ export const projects = [
       - Autenticação segura
     `,
 
-    video: "https://www.youtube.com/embed/SEU_ID_AQUI?rel=0&modestbranding=1",
+    video: "https://www.youtube.com/embed/ALsHGAx28t8",
 
-    images: ["/images/moneyflow-1.png", "/images/moneyflow-2.png"],
+    images: [projeto1],
 
     techs: [reactIcon, sass, figma],
 

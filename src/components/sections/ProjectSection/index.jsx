@@ -32,6 +32,11 @@ function ProjectSection() {
                 onClick={() => handleOpen(project)}
               >
                 <div className="project-card">
+                  <img
+                    src={project.images[0]}
+                    alt={project.title}
+                    className="project-image"
+                  />
                   <div className="project-overlay">
                     <h4>{project.title}</h4>
 
