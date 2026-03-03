@@ -136,10 +136,20 @@
 
 /* Mobile grande */
 @media (min-width: 768px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 
 /* Tablet */
 @media (min-width: 1024px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
 }
 
 /* Laptop */

@@ -4,6 +4,8 @@ import figma from "@/assets/icons/figma.svg";
 
 import projeto1 from "@/assets/images/projeto1.png";
 import projeto2 from "@/assets/images/projeto2.png";
+import projeto2_1 from "@/assets/images/projeto2_1.png";
+import projeto2_2 from "@/assets/images/projeto2_2.png";
 
 export const projects = [
   {
@@ -59,13 +61,13 @@ export const projects = [
       - Autenticação segura
     `,
 
-    video: "https://youtu.be/pVWxjhSx_IY",
+    video: "https://www.youtube.com/embed/pVWxjhSx_IY",
 
-    images: [projeto2],
+    images: [projeto2, projeto2_1, projeto2_2],
 
     techs: [reactIcon, sass, figma],
 
-    liveUrl: "https://moneyflow.com",
+    liveUrl: "https://agenda-pro-cyan-iota.vercel.app/",
     githubUrl: "https://github.com/usuario/moneyflow",
   },
   {
