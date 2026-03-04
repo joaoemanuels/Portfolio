@@ -1,6 +1,7 @@
-import reactIcon from "@/assets/icons/react.svg";
+import react from "@/assets/icons/react.svg";
 import sass from "@/assets/icons/scss.svg";
 import figma from "@/assets/icons/figma.svg";
+import vercel from "@/assets/icons/vercel.svg";
 
 import projeto1 from "@/assets/images/projeto1.png";
 import projeto2 from "@/assets/images/projeto2.png";
@@ -10,72 +11,44 @@ import projeto2_2 from "@/assets/images/projeto2_2.png";
 export const projects = [
   {
     id: 1,
-    title: "MoneyFlow",
-    date: "02 de Fevereiro de 2026",
+    title: "Agenda Pro",
+    date: "10 de Fevereiro de 2026",
 
-    shortDescription: "Sistema de controle financeiro moderno.",
-
-    fullDescription: `
-      O MoneyFlow é um sistema completo de controle financeiro
-      desenvolvido para ajudar usuários a organizarem receitas,
-      despesas e metas financeiras.
-
-      O projeto foi construído com foco em performance, UX
-      e arquitetura escalável utilizando React e SCSS.
-      
-      Funcionalidades:
-      - Cadastro de transações
-      - Filtros por período
-      - Dashboard com gráficos
-      - Autenticação segura
-    `,
-
-    video: "https://www.youtube.com/embed/pVWxjhSx_IY",
-
-    images: [projeto1],
-
-    techs: [reactIcon, sass, figma],
-
-    liveUrl: "https://moneyflow.site",
-    githubUrl: "https://github.com/joaoemanuels/MoneyFlow",
-  },
-  {
-    id: 2,
-    title: "AgendaPro",
-    date: "02 de Fevereiro de 2026",
-
-    shortDescription: "Sistema de controle financeiro moderno.",
+    shortDescription: "Sistema de agendamento para personal trainer.",
 
     fullDescription: `
-      O MoneyFlow é um sistema completo de controle financeiro
-      desenvolvido para ajudar usuários a organizarem receitas,
-      despesas e metas financeiras.
+    O Agenda Pro é um sistema completo de agendamento online
+    desenvolvido para personal trainers gerenciarem seus alunos,
+    horários e sessões de treino de forma prática e organizada.
 
-      O projeto foi construído com foco em performance, UX
-      e arquitetura escalável utilizando React e SCSS.
-      
-      Funcionalidades:
-      - Cadastro de transações
-      - Filtros por período
-      - Dashboard com gráficos
-      - Autenticação segura
+    O projeto foi construído com foco em performance, UX
+    e arquitetura escalável utilizando React e SCSS.
+
+    Funcionalidades:
+    - Página Landing page
+    - Agendamento de planos
+    - Controle de horários disponíveis
+    - Painel administrativo
+    - Gestão de alunos
+    - Confirmação de agendamento
+    - Autenticação segura (admin)
     `,
 
-    video: "https://www.youtube.com/embed/pVWxjhSx_IY",
+    video: "https://www.youtube.com/embed/pVWxjwhSx_IY",
 
     images: [projeto2, projeto2_1, projeto2_2],
 
-    techs: [reactIcon, sass, figma],
+    techs: [react, sass, figma],
 
     liveUrl: "https://agenda-pro-cyan-iota.vercel.app/",
-    githubUrl: "https://github.com/usuario/moneyflow",
+    githubUrl: "https://github.com/joaoemanuels/AgendaPro",
   },
   {
-    id: 3,
+    id: 2,
     title: "MoneyFlow",
-    date: "02 de Fevereiro de 2026",
+    date: "11 de Fevereiro de 2026",
 
-    shortDescription: "Sistema de controle financeiro moderno.",
+    shortDescription: "Sistema de controle financeiro.",
 
     fullDescription: `
       O MoneyFlow é um sistema completo de controle financeiro
@@ -83,22 +56,21 @@ export const projects = [
       despesas e metas financeiras.
 
       O projeto foi construído com foco em performance, UX
-      e arquitetura escalável utilizando React e SCSS.
+      e arquitetura escalável utilizando React.
       
       Funcionalidades:
       - Cadastro de transações
       - Filtros por período
       - Dashboard com gráficos
-      - Autenticação segura
     `,
 
-    video: "https://www.youtube.com/embed/ALsHGAx28t8",
+    video: "https://www.youtube.com/embed/pVWxjhSx_IY",
 
     images: [projeto1],
 
-    techs: [reactIcon, sass, figma],
+    techs: [react, sass, figma, vercel],
 
-    liveUrl: "https://moneyflow.com",
+    liveUrl: "https://moneyflow.site/",
     githubUrl: "https://github.com/usuario/moneyflow",
   },
 ];
