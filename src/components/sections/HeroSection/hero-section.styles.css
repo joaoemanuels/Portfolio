@@ -74,6 +74,8 @@
     align-items: center;
     height: 90vh;
     padding: 90px 20px 0 30px;
+    background: url("https://picsum.photos/600/400") center/cover no-repeat;
+
   }
 
   .hero-section-right {

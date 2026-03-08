@@ -2,8 +2,8 @@ import react from "@/assets/icons/react.svg";
 import html from "@/assets/icons/html5.svg";
 import css from "@/assets/icons/css3.svg";
 import js from "@/assets/icons/js.svg";
-import sass from "@/assets/icons/scss.svg";
 import figma from "@/assets/icons/figma.svg";
+import render from "@/assets/icons/render.svg";
 import vercel from "@/assets/icons/vercel.svg";
 
 import projeto1 from "@/assets/images/projeto1.png";
@@ -32,19 +32,19 @@ export const projects = [
     - Página Landing page
     - Agendamento de planos
     - Painel administrativo
-    - Autenticação segura (admin)
 
     Em breve: 
+    - Autenticação segura (admin)
     - Controle de horários disponíveis
     - Gestão de alunos
     - Confirmação de agendamento
     `,
 
-		video: "https://www.youtube.com/embed/pVWxjwhSx_IY",
+		video: "https://www.youtube.com/embed/LJtXLGRG6Fo",
 
 		images: [projeto2, projeto2_1, projeto2_2],
 
-		techs: [react, sass, figma],
+		techs: [react, figma, vercel, render],
 
 		liveUrl: "https://agenda-pro-cyan-iota.vercel.app/",
 		githubUrl: "https://github.com/joaoemanuels/AgendaPro",
@@ -74,7 +74,7 @@ export const projects = [
 
 		images: [projeto1],
 
-		techs: [react, sass, figma, vercel],
+		techs: [react, figma, vercel],
 
 		liveUrl: "https://moneyflow.site/",
 		githubUrl: "https://github.com/joaoemanuels/MoneyFlow",

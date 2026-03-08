@@ -9,6 +9,7 @@ import figma from "@/assets/icons/figma.svg";
 import vite from "@/assets/icons/vite.svg";
 import tailwind from "@/assets/icons/tailwind.svg";
 import vercel from "@/assets/icons/vercel.svg";
+import render from "@/assets/icons/render.svg";
 import SkillCard from "../../ui/SkillCard";
 
 import "./skill-section.styles.css";
@@ -36,6 +37,8 @@ function SkillSection() {
           <SkillCard icon={tailwind} name="tailwind" />
 
           <SkillCard icon={vercel} name="vercel" />
+
+          <SkillCard icon={render} name="render" />
         </div>
       </div>
     </section>
