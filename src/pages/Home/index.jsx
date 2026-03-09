@@ -8,13 +8,13 @@ import "../Home/home.styles.css";
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <HeroSection/>
       <AboutSection />
       <SkillSection />
       <ProjectSection />
       <FooterSection />
-    </>
+    </div>
   );
 }
 
