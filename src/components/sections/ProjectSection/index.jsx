@@ -96,11 +96,10 @@ function ProjectSection() {
 					</div>
 
 					<div className="show-more-container">
-						{allProjects.length > 4 && (
 							<button onClick={() => setShowAll(!showAll)}>
 								{showAll ? "Mostrar menos" : "Mostrar mais"}
 							</button>
-						)}
+						
 					</div>
 				</div>
 			</div>

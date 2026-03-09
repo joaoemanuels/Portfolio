@@ -169,4 +169,20 @@ export const allProjects = [
 		liveUrl: "https://eventify-virid.vercel.app/",
 		githubUrl: "https://github.com/joaoemanuels/Eventify",
 	},
+	{
+		id: 4,
+		title: "Em breve...",
+		date: "",
+
+		shortDescription:"",
+			
+		video: "",
+
+		images: [],
+
+		techs: [],
+
+		liveUrl: "",
+		githubUrl: "",
+	},
 ];
