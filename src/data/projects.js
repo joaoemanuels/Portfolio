@@ -5,12 +5,14 @@ import js from "@/assets/icons/js.svg";
 import figma from "@/assets/icons/figma.svg";
 import render from "@/assets/icons/render.svg";
 import vercel from "@/assets/icons/vercel.svg";
+import n8n from "@/assets/icons/n8n.svg";
 
 import projeto1 from "@/assets/images/projeto1.png";
 import projeto2 from "@/assets/images/projeto2.png";
 import projeto2_1 from "@/assets/images/projeto2_1.png";
 import projeto2_2 from "@/assets/images/projeto2_2.png";
 import projeto3 from "@/assets/images/projeto3.png";
+import projeto4 from "@/assets/images/projeto4.png";
 
 export const projects = [
 	{
@@ -46,11 +48,45 @@ export const projects = [
 
 		techs: [react, figma, vercel, render],
 
-		liveUrl: "https://agenda-pro-cyan-iota.vercel.app/",
+		liveUrl: "https://agendapro.fun",
 		githubUrl: "https://github.com/joaoemanuels/AgendaPro",
 	},
 	{
 		id: 2,
+		title: "Decisio",
+		date: "Versão beta - features em andamento",
+
+		shortDescription: "Sistema interativo de tomada de decisão.",
+
+		fullDescription: `
+      O Decisio é uma aplicação interativa desenvolvida para auxiliar usuários
+      na tomada de decisões de forma estruturada e guiada.
+
+      Através de um fluxo dinâmico de perguntas, o sistema analisa as respostas
+      do usuário e gera recomendações personalizadas com base em uma lógica definida.
+
+      O projeto foi desenvolvido com foco em prática de lógica de programação,
+      componentização e experiência do usuário utilizando React.
+
+      Funcionalidades:
+      - Fluxo de perguntas dinâmico
+      - Seleção de respostas com feedback visual
+      - Barra de progresso do fluxo
+      - Geração de resultado baseado nas respostas
+      - Interface moderna e responsiva
+    `,
+
+		video: "https://www.youtube.com/embed/1sx",
+
+		images: [projeto4],
+
+		techs: [react, n8n, figma, vercel],
+
+		liveUrl: "https://decisio-ashen.vercel.app/",
+		githubUrl: "https://github.com/joaoemanuels/Decisio",
+	},
+	{
+		id: 3,
 		title: "MoneyFlow",
 		date: "11 de Fevereiro de 2026",
 
@@ -80,7 +116,7 @@ export const projects = [
 		githubUrl: "https://github.com/joaoemanuels/MoneyFlow",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Checklist",
 		date: "11 de Fevereiro de 2026",
 

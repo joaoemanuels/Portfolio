@@ -96,10 +96,9 @@ function ProjectSection() {
 					</div>
 
 					<div className="show-more-container">
-							<button onClick={() => setShowAll(!showAll)}>
-								{showAll ? "Mostrar menos" : "Mostrar mais"}
-							</button>
-						
+						<button onClick={() => setShowAll(!showAll)}>
+							{showAll ? "Mostrar menos" : "Mostrar mais"}
+						</button>
 					</div>
 				</div>
 			</div>
