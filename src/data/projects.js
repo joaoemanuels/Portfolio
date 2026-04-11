@@ -13,6 +13,9 @@ import projeto2_1 from "@/assets/images/projeto2_1.png";
 import projeto2_2 from "@/assets/images/projeto2_2.png";
 import projeto3 from "@/assets/images/projeto3.png";
 import projeto4 from "@/assets/images/projeto4.png";
+import projeto4_1 from "@/assets/images/projeto4_1.png";
+import projeto4_2 from "@/assets/images/projeto4_2.png";
+import projeto4_3 from "@/assets/images/projeto4_3.png";
 
 export const projects = [
 	{
@@ -76,9 +79,9 @@ export const projects = [
       - Interface moderna e responsiva
     `,
 
-		video: "https://www.youtube.com/embed/1sx",
+		video: "https://www.youtube.com/embed/8ED6CWbucG8",
 
-		images: [projeto4],
+		images: [projeto4, projeto4_1, projeto4_2, projeto4_3],
 
 		techs: [react, n8n, figma, vercel],
 
