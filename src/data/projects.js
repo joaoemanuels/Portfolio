@@ -57,7 +57,7 @@ export const projects = [
 	{
 		id: 2,
 		title: "Decisio",
-		date: "Versão beta - features em andamento",
+		date: "13 de abril de 2026",
 
 		shortDescription: "Sistema interativo de tomada de decisão.",
 
@@ -91,7 +91,7 @@ export const projects = [
 	{
 		id: 3,
 		title: "MoneyFlow",
-		date: "11 de Fevereiro de 2026",
+		date: "13 de Fevereiro de 2026",
 
 		shortDescription: "Sistema de controle financeiro.",
 
