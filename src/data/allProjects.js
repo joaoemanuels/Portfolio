@@ -1,13 +1,15 @@
-import html5 from "@/assets/icons/html5.svg";
-import css3 from "@/assets/icons/css3.svg";
+import html from "@/assets/icons/html5.svg";
+import css from "@/assets/icons/css3.svg";
 import js from "@/assets/icons/js.svg";
 import react from "@/assets/icons/react.svg";
 import vite from "@/assets/icons/vite.svg";
+import vercel from "@/assets/icons/vercel.svg";
 
 import projeto1 from "@/assets/images/allprojeto1.png";
 import projeto2 from "@/assets/images/allprojeto2.png";
 import projeto3 from "@/assets/images/allprojeto3.png";
 import projeto4 from "@/assets/images/allprojeto4.png";
+
 
 export const allProjects = [
 	{
@@ -84,7 +86,7 @@ export const allProjects = [
 
 		images: [projeto2],
 
-		techs: [html5, css3, js],
+		techs: [html, css, js],
 
 		liveUrl: "https://fokus-base.vercel.app/",
 		githubUrl: "https://github.com/joaoemanuels/Fokus-projeto-base",
@@ -123,7 +125,7 @@ export const allProjects = [
 
 		images: [projeto3],
 
-		techs: [html5, css3, js],
+		techs: [html, css, js],
 
 		liveUrl: "https://memoteca-steel.vercel.app/",
 		githubUrl: "https://github.com/joaoemanuels/memoteca",
@@ -170,12 +172,44 @@ export const allProjects = [
 		githubUrl: "https://github.com/joaoemanuels/Eventify",
 	},
 	{
-		id: 4,
+		id: 5,
+		title: "Checklist",
+		date: "11 de Fevereiro de 2026",
+
+		shortDescription: "Sistema de controle financeiro.",
+
+		fullDescription: `
+        O Checklist é um sistema de organização de estudos
+        desenvolvido *para estudo* com foco em ajudar usuários a planejarem,
+        acompanharem e gerenciarem suas tarefas de estudo.
+  
+        O projeto foi construído para teste de lógica, com intuito de foco em produtividade,
+        experiência do usuário e organização de rotinas,
+        utilizando React.
+  
+        Funcionalidades:
+        - Criação e gerenciamento de tarefas de estudo
+        - Marcação de tarefas concluídas
+        - Organização por prioridades
+        - Interface simples e intuitiva
+      `,
+
+		video: "https://www.youtube.com/embed/1sRwpb4ShA4",
+
+		images: [projeto3],
+
+		techs: [html, css, js, vercel],
+
+		liveUrl: "https://checklist-ruddy-six.vercel.app/",
+		githubUrl: "https://github.com/joaoemanuels/checklist",
+	},
+	{
+		id: 6,
 		title: "Em breve...",
 		date: "",
 
-		shortDescription:"",
-			
+		shortDescription: "",
+
 		video: "",
 
 		images: [],

@@ -11,7 +11,7 @@ import projeto1 from "@/assets/images/projeto1.png";
 import projeto2 from "@/assets/images/projeto2.png";
 import projeto2_1 from "@/assets/images/projeto2_1.png";
 import projeto2_2 from "@/assets/images/projeto2_2.png";
-import projeto3 from "@/assets/images/projeto3.png";
+import projeto5 from "@/assets/images/projeto5.png";
 import projeto4 from "@/assets/images/projeto4.png";
 import projeto4_1 from "@/assets/images/projeto4_1.png";
 import projeto4_2 from "@/assets/images/projeto4_2.png";
@@ -120,34 +120,38 @@ export const projects = [
 	},
 	{
 		id: 4,
-		title: "Checklist",
-		date: "11 de Fevereiro de 2026",
+		title: "Lab Hooks",
+		date: "24 de Abril de 2026",
 
-		shortDescription: "Sistema de controle financeiro.",
+		shortDescription: "Sistema de uso variado de consumo de API",
 
 		fullDescription: `
-      O Checklist é um sistema de organização de estudos
-      desenvolvido *para estudo* com foco em ajudar usuários a planejarem,
-      acompanharem e gerenciarem suas tarefas de estudo.
-
-      O projeto foi construído para teste de lógica, com intuito de foco em produtividade,
-      experiência do usuário e organização de rotinas,
-      utilizando React.
-
-      Funcionalidades:
-      - Criação e gerenciamento de tarefas de estudo
-      - Marcação de tarefas concluídas
-      - Organização por prioridades
-      - Interface simples e intuitiva
+    O Lab Hooks é uma aplicação desenvolvida para demonstrar o consumo de APIs
+    em um cenário real de gerenciamento de tarefas.
+    
+    O projeto foi construído com foco em manipulação de dados, controle de estado
+    e experiência do usuário, simulando um fluxo completo de criação, leitura,
+    atualização e remoção de tarefas (CRUD), utilizando React.
+    
+    A aplicação consome dados de uma API (mockada ou real) e permite interação
+    dinâmica com os dados, refletindo alterações em tempo real.
+    
+    Funcionalidades:
+    - Listagem de tarefas via API
+    - Criação de novas tarefas
+    - Marcação de tarefas como concluídas
+    - Atualização e remoção de tarefas
+    - Controle de estado e sincronização com API
+    - Tratamento de loading e erros
     `,
 
-		video: "https://www.youtube.com/embed/1sRwpb4ShA4",
+		video: "https://www.youtube.com/embed/1sRwpb4ShwA4",
 
-		images: [projeto3],
+		images: [projeto5],
 
 		techs: [html, css, js, vercel],
 
-		liveUrl: "https://checklist-ruddy-six.vercel.app/",
-		githubUrl: "https://github.com/joaoemanuels/checklist",
+		liveUrl: "https://lab-hooks-1mty.vercel.app/",
+		githubUrl: "https://github.com/joaoemanuels/lab-hooks",
 	},
 ];
