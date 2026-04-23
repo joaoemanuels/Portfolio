@@ -121,7 +121,7 @@ export const projects = [
 	{
 		id: 4,
 		title: "Lab Hooks",
-		date: "24 de Abril de 2026",
+		date: "em desenvolvimento...",
 
 		shortDescription: "Sistema de uso variado de consumo de API",
 
