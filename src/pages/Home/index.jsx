@@ -3,17 +3,19 @@ import FooterSection from "../../components/sections/FooterSection";
 import HeroSection from "../../components/sections/HeroSection";
 import ProjectSection from "../../components/sections/ProjectSection";
 import SkillSection from "../../components/sections/SkillSection";
+import VidTest from "../../components/sections/vidTest";
 
 import "../Home/home.styles.css";
 
 function Home() {
   return (
     <div className="home">
-      <HeroSection/>
+      <HeroSection />
       <AboutSection />
       <SkillSection />
       <ProjectSection />
       <FooterSection />
+      <VidTest />
     </div>
   );
 }
