@@ -10,9 +10,9 @@ function HeroSection() {
 					Olá, eu sou o <br />
 					<span>João Emanuel</span>
 				</h1>
-				<p>Desenvolvedor Front-End | React.js | Node.js</p>
+				<p>Desenvolvedor Backend | Node.js | PostgreSQL</p>
 				<div className="hero-section-btns">
-					<a href="/joaoemanuels_frontend_j.pdf" download>
+					<a href="/joaoemanuels_backend_j.pdf" download>
 						<Button>Download CV</Button>
 					</a>
 					<a

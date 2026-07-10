@@ -8,17 +8,19 @@ function AboutSection() {
       <div className="about-section-container">
         <HeadingSection>Sobre mim</HeadingSection>
         <p>
-          Desenvolvedor Front-End com foco na criação de interfaces modernas,
-          responsivas e orientadas à performance. Possuo experiência no
-          desenvolvimento de aplicações com React.js, JavaScript, HTML, CSS e
-          integração com APIs<br />
+          Desenvolvedor em transição para Back-End, com experiência prática em
+          modelagem de dados, segurança e automação usando Node.js, PostgreSQL e
+          Supabase (RLS, JSONB, pg_cron). Venho de uma base sólida em React.js e
+          JavaScript, o que me dá visão completa do fluxo de dados entre API e
+          interface.
           <br />
-          Tenho forte atenção à organização de código, componentização, boas
-          práticas de UX/UI e otimização para SEO. Gosto de transformar ideias
-          em produtos digitais funcionais, com estrutura escalável e foco na
-          experiência do usuário. Estou em constante evolução, buscando
-          aprimorar arquitetura, performance e qualidade técnica em cada projeto
-          desenvolvido.
+          <br />
+          Já entreguei projetos full stack do zero ao deploy, com foco em
+          integridade de dados, autenticação e arquitetura escalável. Tenho
+          forte atenção à organização de código, boas práticas de API e
+          modelagem de banco de dados. Estou em constante evolução, buscando
+          aprofundar arquitetura backend, performance e qualidade técnica em
+          cada projeto desenvolvido.
         </p>
       </div>
     </section>
